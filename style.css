@@ -9,10 +9,16 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background: linear-gradient(135deg, #ffc1cc, #ff9aa2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .weatherCard {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 65%;
     width: 28%;
     border-radius: 45px;
@@ -20,22 +26,47 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
+    background-color: white;
 }
 
 .divCard {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 35%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
+}
+.div2Card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
+.tempMid {
+    font-size: 70px;
+    color: purple;
+}
+
+.weather {
+
+    border: 2px solid black;
+}
+
+.dayLine {
+    border: 2px solid pink;
+    background-color: rgb(241, 207, 213);
+    padding: 10px 30px;
+    border-radius: 16px;
+    
+}
 .box {
     border: 2px solid green;
-    height: 70%;
-    width: 25%;
+    height: 75%;
+    width: 30%;
     border-radius: 16px;
     
     
@@ -65,4 +96,31 @@
     align-items: center;
     flex-direction: column;
 
+}
+
+
+.searchBox {
+    width: 50%;
+    border-radius: 16px;
+    /* border: 1px solid rgb(254, 108, 132); */
+    display: flex;
+    justify-content: center;
+
+}
+
+.input {
+
+    font-size: 20px;    
+    padding: 10px;
+    width: 60%;
+    outline: none;
+    border-radius: 16px;
+    border: 1px solid rgb(254, 108, 132);
+
+}
+
+.btn {
+    border-radius: 50%;
+    outline: none;
+    border: 2px solid pink;
 }
